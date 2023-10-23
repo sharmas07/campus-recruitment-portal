@@ -1,0 +1,12 @@
+.main__container {
+  width: 80vw;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+@media screen and (max-width: 599px) {
+  .main__container {
+    width: 100vw;
+    margin: 0;
+  }
+}

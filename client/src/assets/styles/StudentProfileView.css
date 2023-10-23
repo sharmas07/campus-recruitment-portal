@@ -1,0 +1,116 @@
+.profile-container {
+    margin: 50px;
+  }
+  
+  .info-row {
+    display: flex;
+    margin: 10px 0;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .view-resume-button {
+    background-color: #303235;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .view-resume-button:hover {
+    background-color: #0069d9;
+    text-decoration: none;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .personal-info {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .education {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .work-experience {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .skills {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .projects {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .info-value {
+    word-break: break-word;
+  }
+    
+  .user-name-image{
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .user-image{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+  }
+  .editprofile-btn{
+    margin:1rem;
+    display:flex ;
+    justify-content:center;
+  
+  }
+  .editprofile-btn button{
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: #fff;
+    border: 1px solid black;
+    transition: all 300ms;
+  }
+  .editprofile-btn button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .profile-container {
+      margin: 14px;
+    }
+  
+    .info-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .info-label {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  
+    .view-resume-button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  }

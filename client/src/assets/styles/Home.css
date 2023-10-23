@@ -1,0 +1,58 @@
+.home__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 87vh;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+}
+.button__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.button {
+    padding: 1rem 2rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.student {
+    background-color: #000;
+}
+.recruiter {
+    background-color: #2196f3;
+}
+.home__title{
+    width: 30rem;
+}
+@media only screen and (max-width: 600px) {
+    .home__title{
+        width: auto;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .button {
+        padding: 0.75rem 1.5rem;
+        font-size: 1.25rem;
+    }
+    .button__container {
+        flex-direction: column;
+    }
+    .student {
+        margin-bottom: 1rem;
+    }
+}
